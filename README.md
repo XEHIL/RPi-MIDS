@@ -21,7 +21,7 @@ To install and use the Motion Based Intrusion Detection System, follow these ste
 pip install telepot
 ```
 3. Connect a PiCamera to your Raspberry Pi.
-4. Now connect the\ GND, VCC and SIGNAL wire of the PIR Sensor to GPIO.BOARD Pins 2, 6 and 36 respectively.
+4. Now connect the GND, VCC and SIGNAL wire of the PIR Sensor to GPIO.BOARD Pins 2, 6 and 36 respectively.
 5. Now open [BotFather](https://t.me/BotFather) on Telegram. Then create a New BOT and copy the `BOT_TOKEN` to the CODE. Save the code.
 6. Run the system by running `python run.py`.
 7. The BOT should be working now, and once motion is detected in front of the PIR Sensor, an alert will be sent to the user.
